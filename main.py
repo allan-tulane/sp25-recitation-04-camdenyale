@@ -53,7 +53,8 @@ def word_count_reduce(group):
     """
     return (group[0], reduce(lambda x, y: x + y, group[0], group[1]))
     
-    
+
+
 
 
 def iterate(f, x, a):
